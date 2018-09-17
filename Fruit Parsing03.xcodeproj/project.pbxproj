@@ -12,6 +12,8 @@
 		14D5911D214F3C86009B1822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D5911B214F3C86009B1822 /* Main.storyboard */; };
 		14D5911F214F3C88009B1822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D5911E214F3C88009B1822 /* Assets.xcassets */; };
 		14D59122214F3C88009B1822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D59120214F3C88009B1822 /* LaunchScreen.storyboard */; };
+		14D59134214F3FC5009B1822 /* fruit.xml in Resources */ = {isa = PBXBuildFile; fileRef = 14D59133214F3FC5009B1822 /* fruit.xml */; };
+		14D59136214F4471009B1822 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D59135214F4471009B1822 /* FruitData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		14D5911E214F3C88009B1822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14D59121214F3C88009B1822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14D59123214F3C88009B1822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D59133214F3FC5009B1822 /* fruit.xml */ = {isa = PBXFileReference; explicitFileType = text.xml; path = fruit.xml; sourceTree = "<group>"; };
+		14D59135214F4471009B1822 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		14D59116214F3C86009B1822 /* Fruit Parsing03 */ = {
 			isa = PBXGroup;
 			children = (
+				14D59133214F3FC5009B1822 /* fruit.xml */,
+				14D59135214F4471009B1822 /* FruitData.swift */,
 				14D59117214F3C86009B1822 /* AppDelegate.swift */,
 				14D59119214F3C86009B1822 /* ViewController.swift */,
 				14D5911B214F3C86009B1822 /* Main.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				14D59122214F3C88009B1822 /* LaunchScreen.storyboard in Resources */,
 				14D5911F214F3C88009B1822 /* Assets.xcassets in Resources */,
+				14D59134214F3FC5009B1822 /* fruit.xml in Resources */,
 				14D5911D214F3C86009B1822 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				14D5911A214F3C86009B1822 /* ViewController.swift in Sources */,
 				14D59118214F3C86009B1822 /* AppDelegate.swift in Sources */,
+				14D59136214F4471009B1822 /* FruitData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
